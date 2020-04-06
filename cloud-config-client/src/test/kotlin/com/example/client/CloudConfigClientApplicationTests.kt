@@ -11,4 +11,9 @@ class CloudConfigClientApplicationTests {
     fun samplePropertiesMessageIsEqualToStaging() {
         Assertions.assertThat(SampleProperties.message).isEqualTo("staging!")
     }
+
+    @Test
+    fun samplePropertiesEncryptedMessageIsEqualToStaging() {
+        Assertions.assertThat(SampleProperties.encryptedMessage).isEqualTo("staging!")
+    }
 }

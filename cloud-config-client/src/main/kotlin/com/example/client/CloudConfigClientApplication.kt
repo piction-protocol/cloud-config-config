@@ -16,4 +16,5 @@ fun main(args: Array<String>) {
 @ConfigurationProperties("sample")
 object SampleProperties {
     lateinit var message: String
+    lateinit var encryptedMessage: String
 }
