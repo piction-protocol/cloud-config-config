@@ -10,3 +10,9 @@ spring:
       server:
         git:
           uri: "https://github.com/piction-protocol/cloud-server-config-repo"
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: username
+    password: password
